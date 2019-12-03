@@ -1,0 +1,47 @@
+body{
+    display: inline-block;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
+    background-color: blueviolet;
+    color: white;
+    
+}
+main{
+    display: inline-block;
+    
+}
+    
+    .container{
+        display: inline-block;
+        width: 40%;
+        margin-top: 150px;
+    }   
+        .container h1{
+            font-size: 55px;
+        }   
+        .container p{
+            margin-top: 15px;
+            font-size: 16px;
+        }  
+        .container .circle{
+            width: 80px;
+            height: 80px;
+            background-color: white;
+            border-radius: 50%;
+            margin-top: 50px;
+            position: relative;
+        }
+        .container .play{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 7.5px 0 7.5px 15px;
+            border-color: transparent transparent transparent darkmagenta;
+            position: absolute;
+            top: 50%;  
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
